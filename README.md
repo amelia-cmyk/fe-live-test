@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TODO App - Frontend Developer Interview
 
-## Getting Started
+## Introduction
 
-First, run the development server:
+Welcome to the CatzeLabs Frontend Developer interview! In this assignment, you'll be tasked with creating a simple TODO application using **Next.js**.  
+This project will help us evaluate your skills in building a modern web application.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Requirements
+
+1. **Add Tasks**: Users should be able to add new tasks to the TODO list.
+
+- Fetch todo lists from `https://HOST.com/`;
+- The response scheme like:
+
+```typescript
+type TodoListResponse {
+  id: number;
+  label: string;
+  createdAt: string;
+}[]
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Mark Tasks as Completed**: Users should be able to mark tasks as completed and toggle between completed and incomplete states.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [Tiny tip] You have to manage complete flag with internal react state.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. **Clean Code**: Focus on maintainability, readability, and best practices in your code structure.
 
-## Learn More
+## Requirements
 
-To learn more about Next.js, take a look at the following resources:
+- **Time limited**: The test will be conducting for 20 mins.
+- **Internet is allowed**: You can use internet searching including LLM services(e.g. chatGPT), but you have to explain how to work.
+- **Styling(optional)**: Tailwind CSS is default. but There is no need to style.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Guidelines
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Screen Sharing**: You have to share your laptop screen in course of testing.
+2. **Question is allowed**: You can also ask the question to interviewer.
 
-## Deploy on Vercel
+## Evaluation Criteria
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Functionality: Does the app meet the requirements?
+- Code Quality: Is the code clean, organized, and maintainable?
+- UI/UX: Is the design user-friendly?
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Good luck, and we look forward to seeing your work!
+
+---
+
+If you have any questions during the assignment, feel free to reach out.
+
+Best regards,  
+@Catzelabs FE team
