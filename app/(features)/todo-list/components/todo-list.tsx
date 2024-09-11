@@ -13,7 +13,7 @@ export function TodoItem() {
   return (
     <div className="flex flex-col gap-2 rounded-md border p-2">
       <li>What should I do?</li>
-      <time className={'text-xs text-zinc-600'}>
+      <time className="text-xs text-zinc-600">
         {new Date(createdAtISOString).toLocaleDateString()}
       </time>
       <button className="ml-auto rounded-full border px-2 py-1">
