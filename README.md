@@ -9,7 +9,7 @@ This project will help us evaluate your skills in building a modern web applicat
 
 1. **Add Tasks**: Users should be able to add new tasks to the TODO list.
 
-- Fetch todo lists from `https://HOST.com/`;
+- Fetch todo lists from `https://playground.dev.be.by-catze.xyz/interview-fe/todos`;
 - The response scheme like:
 
 ```typescript
