@@ -19,8 +19,16 @@
     ],
     "paths": {
       "@/*": ["./*"]
-    }
+    },
+    // "types": ["cypress", "jest", "node"]   // ⬅️ tambahin ini
+    "types": ["cypress", "jest", "@testing-library/cypress"]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "cypress"                              // ⬅️ tambahin ini
+, "cypress.config.cjs"  ],
   "exclude": ["node_modules"]
 }
